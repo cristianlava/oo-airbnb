@@ -16,7 +16,7 @@ below you will find the methods that we'd expect for you to complete. They are g
 they are not ordered in any particular way beyond that.  
 
 #### Listing
-- `Listing#guests`
+<!-- - `Listing#guests`
   - Returns an array of all Guest instances who have stayed at a listing
 - `Listing#trips`
   - Returns an array of all Trip instances at a listing
@@ -27,26 +27,26 @@ they are not ordered in any particular way beyond that.
 - `Listing.find_all_by_city`
   - Takes an argument of a city name (as a string) and returns an array of all Listing instances for that city
 - `Listing.most_popular`
-  - Finds the listing that has had the most trips
+  - Finds the listing that has had the most trips -->
 
-#### Guest
-- `Guest#listings`
+<!-- #### Guest
+<!-- - `Guest#listings`
   - Returns an array of all Listing instances a guest has stayed at
 - `Guest#trips`
   - Returns an array of all Trip instances a guest has taken
 - `Guest#trip_count`
   - Returns the number of trips a Guest has taken
 - `Guest.all`
-  - Returns an array of all Guest instances
-- `Guest.pro_traveler`
-  - Returns an array of all Guest instances who have made over 1 trip
-- `Guest.find_all_by_name`
-  - Takes an argument of a guest's name (as a string), returns an array of Guest instances with that name
+  - Returns an array of all Guest instances -->
+<!-- - `Guest.pro_traveler`
+  - Returns an array of all Guest instances who have made over 1 trip -->
+<!-- - `Guest.find_all_by_name`
+  - Takes an argument of a guest's name (as a string), returns an array of Guest instances with that name --> 
 
-#### Trip
+<!-- #### Trip
 - `Trip#listing`
   - Returns the Listing object for the trip
 - `Trip#guest`
   - Returns the Guest object for the trip
 - `Trip.all`
-  - Returns an array of all Trips created
+  - Returns an array of all Trips created -->
